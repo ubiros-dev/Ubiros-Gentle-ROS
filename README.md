@@ -21,7 +21,7 @@ Before step 4, make sure that you have connected Gentle to the power supply and 
   
   A - Through the launch file
   
-  $ roslaunch gentlepro_soft_gripper softgripper_launcher.launch
+  $ roslaunch gentle_ROS Gentle_ROS_launcher.launch
  
   B - Through running the nodes individually 
   (Recommended method to connect to ports other than /dev/ttyUSB0)
