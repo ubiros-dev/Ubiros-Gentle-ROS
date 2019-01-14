@@ -19,13 +19,13 @@ Before step 4, make sure that you have connected Gentle to the power supply and 
 
 4 - There are two ways to launch the control for the soft gripper
   
-  A - Through the launch file
+  A - Through the launch file (defaults to /dev/ttyUSB0 unless port_arg is used)
   
-  $ roslaunch gentle_ros gentle_ros_launcher.launch
+  $ roslaunch gentle_ros gentle_ros_launcher.launch [port_arg:="/dev/ttyUSB*"]
+	
  
   B - Through running the nodes individually 
-  (Recommended method to connect to ports other than /dev/ttyUSB0)
- 
+   
   $ roscore
  
   $ rosrun rosserial_python serial_node.py /dev/ttyUSB*
