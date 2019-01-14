@@ -21,7 +21,7 @@ Before step 4, make sure that you have connected Gentle to the power supply and 
   
   A - Through the launch file
   
-  $ roslaunch gentle_ROS Gentle_ROS_launcher.launch
+  $ roslaunch gentle_ros gentle_ros_launcher.launch
  
   B - Through running the nodes individually 
   (Recommended method to connect to ports other than /dev/ttyUSB0)
@@ -30,6 +30,6 @@ Before step 4, make sure that you have connected Gentle to the power supply and 
  
   $ rosrun rosserial_python serial_node.py /dev/ttyUSB*
   
-  $ rosrun gentle_ROS all_fingers_control.py 
+  $ rosrun gentle_ros all_fingers_control.py 
   
   You can now use the stated keyboard buttons to control Ubiros Gentle gripper
