@@ -43,7 +43,7 @@ if __name__=="__main__":
     all_fingers_old=50
     status = 0
 
-
+    time.sleep(5)
     print(msg)
 
 #The main while loop the keeps the code running until the user closes it and it takes actions based on the key pressed
