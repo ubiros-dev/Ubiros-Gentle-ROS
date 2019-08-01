@@ -13,7 +13,7 @@ $ catkin_make
 
 3 - Source the workspace so that ROS can find the new package.
 
-$ source devel/setup.bash 
+$ source ~/catkin_ws/devel/setup.bash 
 
 Before step 4, make sure that you have connected Gentle to the power supply and the USB port of the computer
 
